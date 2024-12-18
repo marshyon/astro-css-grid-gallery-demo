@@ -1,0 +1,11 @@
+---
+const { rec } = Astro.props;
+---
+
+<figure>
+    <img src={rec.url} />
+    <figcaption>
+        <h3>{rec.caption}</h3>
+        <p>{rec.text}</p>
+    </figcaption>
+</figure>
